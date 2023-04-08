@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    padding: 5px 24px 25px 0px;
+
+}
+
+header .clase1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+header .clase1 a{
+     text-decoration: none;
+     background-color: beige;
+     border-radius: 24px;
+     height: 40px;
+     width: 200px;
+     padding: 8px 10px;
+     color: rgb(0, 0, 0);
+     border: none;
+     background-color: rgb(202, 201, 134);
+     font-size: medium;
+     align-content: center;
+     text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+  
+header .clase1 a:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    transition: 3ms;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+
+main .clase2{
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    background-color: rgb(241, 245, 207);
+    border-radius: 20%;
+
+}
+
+main .clase2:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    transition: 3ms;
+}
+
+
+main .clase2 h1{
+    color: rgb(97, 88, 49);
+    font-size: 80px;
+    background-color: transparent;
+    font-family: 'Rubik Moonrocks', cursive;
+    margin: 0;
+
+}
+main .clase2 h4{
+    padding: 17px 40px 25px 40px;
+    font-size: 25px;
+    background-color: rgb(241, 245, 207);
+    border: 0cm;
+    margin: 0;
+}
+
+main .clase2 #form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    transition: 0.3s ease;
+    background-color: rgb(241, 245, 207);
+    margin: 70px;
+}
+main .clase2 #form :hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    transition: 3ms;
+}
+
+/* main .clase2 :hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    transition: all;
+} */
+
+main .clase2 #form input{
+    border-radius: 24px;
+    height: 48px;
+    width: 300px;
+    padding: 8px 12px;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: rgb(202, 201, 134);
+    font-size: medium;
+    align-content: center;
+    
+}
+main .clase2 #form input:hover{
+    background-color: #8a6f3da8;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    transition: 3ms;
+}
+
+main .clase2 #form button{
+    border-radius: 24px;
+    height: 48px;
+    width: 300px;
+    padding: 8px 12px;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: rgb(202, 201, 134);
+    font-size: large;
+    align-content: center;
+}
+main .clase2 #form button:hover{
+    background-color: #8a6f3db6;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    transition: 3ms;
+    border: 20px;
+
+}
+
+#fotos img{
+    height: 150px;
+    position: relative;
+    margin:  -150px 600px 0 0; 
+    align-items:flex-start;
+}
+
+
